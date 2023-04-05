@@ -92,8 +92,7 @@ module.exports = [
                 commonjs: 'react-dom',
                 amd: 'react-dom',
                 umd: 'react-dom',
-            },
-            'socket.io-client': 'io'
+            }
         },
         output: {
             path: path.join(__dirname, '/module'),
